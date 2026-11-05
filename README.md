@@ -16,4 +16,4 @@ npm run dev
 
 Applying the change from [shadcn-ui/ui#12299](https://github.com/shadcn-ui/ui/pull/12299) to `@shadcn/react` makes `/` render.
 
-Versions: `@shadcn/react` 0.3.1, `react` and `react-dom` 19.3.1, `next` 16.4.5 with `reactStrictMode`.
+Versions: `@shadcn/react` 0.3.1, `react` and `react-dom` 19.3.1, `next` 16.4.5 with `reactStrictMode`. The dev script uses webpack because StackBlitz cannot run Turbopack; the crash is the same under Turbopack.
